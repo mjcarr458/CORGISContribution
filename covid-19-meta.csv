@@ -1,0 +1,24 @@
+Name, Covid
+Author, Michael Carr
+Created, 3/20/2021
+Data File, covid-19.csv
+Overview, The Center for System Science and Engineering out of John Hopkins University has maintained a database of covid-19 statistics since on the onset of the pandemic. 
+This data set is based off of their work and aggregates the statistics of different regions of countries that the original data set tracks into country based statistics for 
+ease of use.
+Data Source, https://github.com/CSSEGISandData
+Description, This data set contains relevant Covid-19 statistics from different countries around the world.
+Tags, Covid, Covid-19, pandemic, infection, world health
+Acknowledgement, COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, Dennis Kafura, and Melanie Sutphin
+Row Explination, Reports of Covid-19 cases and statistics from a given date.
+Row, report
+Icon, covid-19.jpeg
+Splash, covid-19.jpeg
+Properties, Name, Type, Description
+,Country, string, Name of Country
+,Last_Update, object, Date of Last Updated Information
+,Confirmed, int, Number of Confirmed cases
+,Deaths, int, Number of Deaths
+,Recovered, int, Number of Recovered cases
+,Incident_Rate, float64, percentage of cases per 100,000 people
+,Active, int, Number of Active cases
+,Case_Fatality_Ratio, float 64, ratio of fatality of cases
